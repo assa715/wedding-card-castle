@@ -1,6 +1,10 @@
 # wedding-card-castle
 castle 의 깃헙청첩장
 
+
+# https://d-h-k.github.io/wedding-card-castle/ 
+ㄴ 접속주소
+
 ## 이번 청첩장에서의 추가된 기능 요구사항은
 - Payment 모듈 탑재
   - 간편송금모듈(카카오페이, 토스페이)
