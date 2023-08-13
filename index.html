@@ -4,9 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <title>캐슬❤️LAAS</title>
-    <meta content="캐슬❤️LAAS 결혼식에 초대합니다." name="description" />
+
+    <title> 김제성 ❤️ 황아연</title>
+
+    <meta content="김제성 ❤️ 황아연 결혼식에 초대합니다!" name="description" />
     <meta property="og:image" content="images/castle-bg.jpg">
+
+    <link href="images/icons8-favorite-48.png" rel="icon" sizes="48x48" type="image/png">
+    <link href="images/icons8-favorite-96.png" rel="icon" sizes="96x96" type="image/png">
 
 
     <link href="styles/main.css" rel="stylesheet">
@@ -102,7 +107,7 @@
 
                             <h5 class="h5 text-center pb-3 ww-title" style="font-family: 'Noto Serif KR', serif;">
                                 <br>
-                                <b>김충배 · 이미란</b> 의 아들 <b>재성</b>
+                                <b>김충배 · 이미란</b> 의 아들 <b>제성</b>
                             </h5>
 
                             <h5 class="h5 text-center pb-3 ww-title" style="font-family: 'Noto Serif KR', serif;">
@@ -228,20 +233,24 @@
 
             <!--- 오시는길 영역 BEGIN--->
 
+
+            <!--- 지도 영역 BEGIN--->
             <div class="ww-section" id="map">
-                <div class="container align-self-md-center">
-                    <h2 class="h1 text-center pb-3 ww-title" style="font-family: 'Noto Serif KR', serif;">오시는 길</h2>
+                <div class="container justify-content-lg-center">
+                    <h2 class="h2 text-center pb-3 ww-title" style="font-family: 'Noto Serif KR', serif;">
+                        오시는 길</h2>
 
                     <!-- * 카카오맵 - 지도퍼가기 -->
                     <!-- 1. 지도 노드 -->
-                    <div id="daumRoughmapContainer1681461191427" class="root_daum_roughmap root_daum_roughmap_landing">
+                    <div id="daumRoughmapContainer1681461191427"
+                        class="root_daum_roughmap text-center root_daum_roughmap_landing align-middle justify-content-lg-center">
                     </div>
 
                     <!--
                     2. 설치 스크립트
                     * 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
                     -->
-                    <script charset="UTF-8" class="daum_roughmap_loader_script"
+                    <script charset="UTF-8" class="daum_roughmap_loader_script  align-content-center"
                         src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
 
                     <!-- 3. 실행 스크립트 -->
@@ -249,34 +258,66 @@
                         new daum.roughmap.Lander({
                             "timestamp": "1681461191427",
                             "key": "2eg3a",
-                            "mapWidth": "640",
-                            "mapHeight": "360"
+                            "mapWidth": "900",
+                            "mapHeight": "640"
                         }).render();
                     </script>
                 </div>
             </div>
+            <!--- 지도 영역 END --->
+            <!--- 교통편 설명 영역 END 
+                만들다 힘들어서 패스..
+                --->
+
+            <!--- 교통편 설명 영역 END --->
+
+
             <!--- 오시는길 영역 END--->
 
 
-            <!--- 마음전하기 영역 BEGIN--->
-            <div>
-                <br>
-                <h2>신랑 김캐슬에게 마음 전하기</h2>
-                <a id="link-kakaopay" href="http://kko.to/카카오페이신랑" target="_blank"><img alt="카카오페이 송금"
-                        src="images/pay-kakao.png"></a><br>
-                <a id="link-toss" href="https://toss.me/토스송금신랑" target="_blank"><img alt="토스 송금"
-                        src="images/pay-toss.png" style="width: 168px"></a><br>
-                <a> 캐슬은행 110-22</a><br>
-                <br>
 
-                <br>
-                <h2>신부 김라스에게 마음 전하기</h2>
-                <a id="link-kakaopay" href="http://kko.to/카카오페이송금신부" target="_blank"><img alt="카카오페이 송금"
-                        src="images/pay-kakao.png"></a><br>
-                <a id="link-toss" href="https://toss.me/토스송금신부" target="_blank"><img alt="토스 송금"
-                        src="images/pay-toss.png" style="width: 168px"></a><br>
-                <a> 신부은행 220-33</a><br>
-                <br>
+
+
+            <!--- 마음전하기 영역 BEGIN--->
+            <div class="ww-section align-content-center" id="kakaopay">
+                <div class="container">
+                    <!--- 신랑 --->
+                    <br>
+                    <h3 class="h3 text-center pb-3 ww-title" style="font-family: 'Noto Serif KR', serif;">
+                        신랑에게 마음을 전하기
+                    </h3>
+
+                    <div class="paylogo text-center">
+                        <a class="ign-content" href="https://www.@@신랑의송금코드링크@@.com"
+                            data-gallery="ww-gallery link-kakaopay">
+                            <img class="align-content-center" src="images/pay-kakao.png">
+                        </a>
+                        <br>
+                        <br>
+                    </div>
+                    <!--- 신랑 --->
+
+                    <br><br><br><br>
+
+                    <!--- 신부 --->
+                    <br>
+                    <h3 class="h3 text-center pb-3 ww-title" style="font-family: 'Noto Serif KR', serif;">
+                        신부에게 마음을 전하기
+                    </h3>
+
+                    <div class="paylogo text-center">
+                        <a class="ign-content" href="https://www.@@신부의송금코드링크@@.com"
+                            data-gallery="ww-gallery link-kakaopay">
+                            <img class="align-content-center" src="images/pay-kakao.png">
+                        </a>
+                        <br>
+                        <br>
+                    </div>
+                    <!--- 신부 --->
+
+
+
+                </div>
             </div>
             <!--- 마음전하기 영역 END--->
 
@@ -293,8 +334,9 @@
                             --->
                             <br>
                             <div id="utterances">
-                                <script src="https://utteranc.es/client.js" repo="캐슬깃헙계정/캐슬리포" issue-term="pathname"
-                                    theme="github-light" crossorigin="anonymous" async>
+                                <script src="https://utteranc.es/client.js" repo="moto3z/wedding-card-castle"
+                                    issue-term="pathname" label="comment" theme="github-light" crossorigin="anonymous"
+                                    async>
                                     </script>
                             </div>
 
