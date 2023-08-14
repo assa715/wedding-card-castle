@@ -10440,3 +10440,15 @@ body {
   left: 0;
   margin: 0px 15px 15px 15px;
 }
+
+.root_daum_roughmap {
+  left: 30px;
+  right: 30px;
+  align-items: start;
+  width: 100%;
+}
+
+.daum_roadmap2 {
+  margin: auto;
+  width: 100%;
+}
